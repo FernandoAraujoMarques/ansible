@@ -1,6 +1,6 @@
 ---
 - name: Update web servers
-  hosts: Git
+  hosts: all
   remote_user: root
 
   tasks:
