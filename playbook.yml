@@ -1,0 +1,8 @@
+---
+- name: Update web servers
+  hosts: aws
+  remote_user: root
+
+  tasks:
+  - name: Example from an Ansible Playbook
+    ansible.builtin.ping:
