@@ -1,7 +1,7 @@
 ---
-- name: Update web servers
+- name: Update Servers  
   hosts: all
   
   tasks:
-  - name: Example from an Ansible Playbook
+  - name: Ping Server
     ansible.builtin.ping:
