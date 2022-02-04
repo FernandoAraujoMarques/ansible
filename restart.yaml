@@ -3,5 +3,7 @@
   hosts: all
   
   tasks:
-  - name: Unconditionally reboot the machine with all defaults
+  - name: Reboot machine using a custom reboot command
     reboot:
+      reboot_command: launchctl reboot userspace
+      boot_time_command: uptime | cut -d ' ' -f 5
