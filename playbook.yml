@@ -1,5 +1,5 @@
 ---
-- name: Update Servers  
+- name: Ping Servers  
   hosts: all
   
   tasks:
